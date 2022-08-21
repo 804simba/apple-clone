@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>APPLE CLONE</title>
+  </head>
+  <body>
+    <div id="overlay"></div>
+    <!-- Mobile Menu -->
+    <div id="menu" class="mobile-main-menu">
+        <ul>
+            <li class="mobile-only"><a class="text-white" href="./macbook.html">Mac</a></li>
+            <li class="mobile-only"><a class="text-white" href="#">iPad</a></li>
+            <li class="mobile-only"><a class="text-white" href="./iphone.html">iPhone</a></li>
+            <li class="mobile-only"><a class="text-white" href="#">Music</a></li>
+            <li class="mobile-only"><a class="text-white" href="#">Support</a></li>
+            <li class="mobile-only"><a class="text-white" href="#">Where to Buy</a></li>
+            <li class="mobile-only flex items-center space-x-3"><input class="bg-gray-200 border-black border-solid rounded-t-md rounded-b-md py-2 px-5 w-4/5" type="text" name="search" placeholder="Search products"> <input class="bg-gray-600 text-white py-2 px-2 rounded-t-md rounded-b-md shadow-md hover:bg-yellow-300" type="submit" value="search"></li>
+        </ul>
+        </div>
+    <nav id="navbar">
+      <div class="relative container flex justify-between items-center text-white mx-auto min-w-full h-13 bg-gray-600 py-4 px-7 md:justify-start">
+        <div class="md:hidden">
+            <a href="./index.html"
+            ><img class="w-6" src="./assets/images/logo-apple.svg" alt="apple logo"
+          /></a>
+        </div>
+        <div class="hidden items-center justify-between mx-auto w-4/5 h-11 md:flex">
+          <a href="./index.html"
+            ><img src="./assets/images/logo-apple.svg" alt="apple logo"
+          /></a>
+          <a class="hover:text-yellow-300" href="./macbook.html">Mac</a>
+          <a class="hover:text-yellow-300" href="#">iPad</a>
+          <a class="hover:text-yellow-300" href="./iphone.html">iPhone</a>
+          <a class="hover:text-yellow-300" href="#">Music</a>
+          <a class="hover:text-yellow-300" href="#">Support</a>
+          <a class="hover:text-yellow-300" href="#">Where to buy</a>
+          <a href="#" class="h-8 w-8"
+            ><img src="./assets/images/logo-search.svg" alt="search"
+          /></a>
+        </div>
+        <!-- HAMBURGER ICON -->
+        <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- 1ST HERO -->
+    <section class="max-w-full lg:h-screen">
+        <div class="flex w-full h-full" href="#">
+            <!-- FLEX CONTAINER -->
+            <div class="container mx-auto flex flex-col items-center py-14 md:space-y-12 lg:flex-row">
+                <!-- HERO TEXT -->
+                <div class="flex flex-col items-center text-center md:space-y-4 w-1/2">
+                    <h1 class="text-4xl text-bold md:text-7xl">Macbook Air</h1>
+                    <img class="max-w-sm md:h-14" src="./assets/images/logo_hero_macbookair__edl9uovq56wm_large.png" alt="Supercharged">
+                    <p class="text-xl text-gray-600">Check back for availability</p>
+                    <a class="hover:underline text-lg text-blue-700 pb-7 link md:text-2xl" href="#">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="w-1/2"><img src="./assets/images/macbook_air_m2__r1jrymq4ftea_large.jpg" alt="macbook air"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECOND HERO -->
+    <section class="bg-black max-w-full">
+        <div class="flex w-full h-full pt-14" href="#">
+            <div class="container mx-auto flex flex-col items-center">
+                <div class="flex flex-col text-center space-y-0 items-center justify-between text-white">
+                    <h1 class="text-4xl text-bold pb-4 md:pb-7 md:text-7xl">Macbook Pro 13"</h1>
+                    <img class="max-w-sm mb-7 md:h-14" src="./assets/images/logo_hero_macbookair__light_large.png" alt="Supercharged">
+                    <a class="hover:underline text-lg text-blue-600 pb-7 link md:text-2xl" href="./macbook.html">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div><img src="./assets/images/macbook_pro_13__e3r46kd69eoi_large.jpg" alt="mackbook 13"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- THIRD HERO -->
+    <section class="max-w-full bg-white">
+        <div class="flex w-full h-full pt-14" href="#">
+            <div class="container mx-auto flex flex-col items-center">
+                <div class="flex flex-col items-center justify-center text-dark text-center md:space-y-5">
+                    <h1 class="text-4xl text-bold md:text-7xl">iPhone 13</h1>
+                    <p class="text-3xl md:text-4xl">Your new super power</p>
+                    <a class="hover:underline text-lg text-blue-700 pb-7 link md:text-2xl" href="./iphone.html">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="flex items-center"><img src="./assets/images/hero_iphone13_retouch2.jpg" alt="mackbook 13"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOURTH HERO -->
+    <section class="max-w-full">
+        <div class="bg-gray-700 grid grid-cols-1 w-full md:grid-cols-2">
+            <div class="bg-black flex flex-col items-center text-center justify-center py-10 px-6 md:space-y-6">
+                <span><img src="./assets/images/promo_logo_ipadair__frwnnsqveeye_large.png" alt="ipad air logo"></span>
+                <h2 class="text-white text-3xl md:text-4xl md:text-center">Light. Bright. Full of might.</h2>
+                <a class="hover:underline text-lg text-blue-700 link mb:pb-7 md:text-2xl" href="#">Learn more<i class="fa-solid fa-chevron-right"></i></a>
+                <img src="./assets/images/promo_ipadair_retouch.jpg" alt="ipad air">
+            </div>
+            <div class="bg-gray-50 flex flex-col items-center text-center justify-center py-10 px-6 md:space-y-6">
+                <h1 class="text-4xl text-black md:text-5xl">iPhone 13 Pro</h1>
+                <h2 class="text-3xl  text-black md:text-4xl md:text-center">Oh. So. Pro.</h2>
+                <a class="hover:underline text-lg text-blue-700 link mb:pb-7 md:text-2xl" href="#">Learn more<i class="fa-solid fa-chevron-right"></i></a>
+                <img src="./assets/images/promo_iphone13pro_retouch.jpg" alt="iphone 13 pro">
+            </div>
+            <div class="bg-gray-50 flex flex-col items-center justify-center text-center py-10 px-6 md:space-y-6">
+                <span><img src="./assets/images/promo_logo_ipad_mini__n5nqff6gq8yu_large.png" alt="ipad mini logo"></span>
+                <h3 class="text-3xl text-black">Mega Power. Mini Sized.</h3>
+                <a class="hover:underline text-lg text-blue-700 link mb:pb-7 md:text-2xl" href="#">Learn more<i class="fa-solid fa-chevron-right"></i></a>
+                <img src="./assets/images/promo_ipad_mini__retouch.jpg" alt="ipad mini">
+            </div>
+            <div class="bg-gray-50 flex flex-col items-center justify-center text-center py-10 px-6 md:space-y-6">
+                <span><img src="./assets/images/logo_iphone_se__m265le0wq0q6_large.png" alt="iphone se logo"></span>
+                <h3 class="text-3xl text-black">Love the power. Love the price.</h3>
+                <a class="hover:underline text-lg text-blue-700 link md:pb-7 md:text-2xl" href="#">Learn more<i class="fa-solid fa-chevron-right"></i></a>
+                <img src="./assets/images/promo_iphonese_retouch.jpg" alt="iphone 13 pro">
+            </div>
+            <div class="bg-gray-50 flex flex-col items-center justify-between text-center pt-10 pb-0 px-6 md:space-y-6 md:justify-center">
+                <h1 class="text-4xl  text-black md:text-5xl">AirPods</h1>
+                <h3 class="text-3xl md:text-4xl text-black">All-new with Spatial Audio</h3>
+                <a class="hover:underline text-lg text-blue-700 link mb:pb-7 md:text-2xl" href="#">Learn more<i class="fa-solid fa-chevron-right"></i></a>
+                <img src="./assets/images/tile_airpods__retouch.jpg" alt="iphone 13 pro">
+            </div>
+            <div class="bg-gray-50 flex flex-col items-center justify-between text-center pt-10 pb-0 px-6 md:space-y-6 md:justify-center">
+                <h1 class="text-4xl text-black md:text-5xl">AirTag</h1>
+                <h3 class="text-3xl md:text-4xl text-black">Lose your knack for losing things.</h3>
+                <a class="hover:underline text-lg text-blue-700 link mb:pb-7 md:text-2xl" href="#">Learn more<i class="fa-solid fa-chevron-right"></i></a>
+                <img src="./assets/images/promo_airtag__retouch.jpg" alt="iphone 13 pro">
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="bg-footerColor">
+        <div class="container mx-auto w-4/5 py-10">
+            <div class="flex flex-col justify-between md:flex-row">
+                <div class="flex flex-col">
+                    <span class="text-black text-lg">Explore</span>
+                    <a href="#" class="text-base text-gray-600">Mac</a>
+                    <a href="#" class="text-base text-gray-600">iPhone</a>
+                    <a href="#" class="text-base text-gray-600">iPad</a>
+                    <a href="#" class="text-base text-gray-600">Music</a>
+                    <a href="#" class="text-base text-gray-600">AirPod</a>
+                    <a href="#" class="text-base text-gray-600">AirTag</a>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-black text-lg">Services</span>
+                    <a href="#" class="text-base text-gray-600">Apple Music</a>
+                    <a href="#" class="text-base text-gray-600">Apple Arcade</a>
+                    <a href="#" class="text-base text-gray-600">iCloud</a>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-black text-lg">Account</span>
+                    <a href="#" class="text-base text-gray-600">Manage your Apple ID</a>
+                    <a href="#" class="text-base text-gray-600">iCloud.com</a>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-black text-lg">About Apple</span>
+                    <a href="#" class="text-base text-gray-600">Newsroom</a>
+                    <a href="#" class="text-base text-gray-600">Apple Leadership</a>
+                    <a href="#" class="text-base text-gray-600">Career Opportunities</a>
+                    <a href="#" class="text-base text-gray-600">Music</a>
+                    <a href="#" class="text-base text-gray-600">Investments</a>
+                    <a href="#" class="text-base text-gray-600">Ethics and Compliance</a>
+                </div>
+            </div>
+            <div class="flex my-7 flex-col">
+                <div class="flex items-center justify-start"><span><a href="#">Find a retailer</a> near you.</span></div>
+                <div class="flex flex-col items-start md:justify-between md:flex-row">
+                    <div>Copyright &copy; <span id="footer-year"></span> All Rights reserved.</div>
+                    <div>Terms of Use</div>
+                    <div class="text-purple-600 self-start text-lg"><span>TimTez NG</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/13de032a3d.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

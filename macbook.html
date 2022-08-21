@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <title>APPLE CLONE | IPHONE 13</title>
+</head>
+<body>
+    <div id="overlay"></div>
+    <!-- Mobile Menu -->
+        <div id="menu" class="mobile-main-menu">
+        <ul>
+            <li class="mobile-only"><a class="text-white" href="./macbook.html">Mac</a></li>
+            <li class="mobile-only"><a class="text-white" href="#">iPad</a></li>
+            <li class="mobile-only"><a class="text-white" href="./iphone.html">iPhone</a></li>
+            <li class="mobile-only"><a class="text-white" href="#">Music</a></li>
+            <li class="mobile-only"><a class="text-white" href="#">Support</a></li>
+            <li class="mobile-only"><a class="text-white" href="#">Where to Buy</a></li>
+            <li class="mobile-only flex items-center space-x-3"><input class="bg-gray-200 border-black border-solid rounded-t-md rounded-b-md py-2 px-5 w-4/5" type="text" name="search" placeholder="Search products"> <input class="bg-gray-600 text-white py-2 px-2 rounded-t-md rounded-b-md shadow-md hover:bg-yellow-300" type="submit" value="search"></li>
+        </ul>
+        </div>
+    
+    <nav id="navbar">
+      <div class="relative container flex justify-between items-center text-white mx-auto min-w-full h-13 bg-gray-600 py-4 px-7 md:justify-start">
+        <div class="md:hidden">
+            <a href="./index.html"
+            ><img class="w-6" src="./assets/images/logo-apple.svg" alt="apple logo"
+          /></a>
+        </div>
+        <div class="hidden items-center justify-between mx-auto w-4/5 h-11 md:flex">
+          <a href="./index.html"
+            ><img src="./assets/images/logo-apple.svg" alt="apple logo"
+          /></a>
+          <a class="hover:text-yellow-300" href="./macbook.html">Mac</a>
+          <a class="hover:text-yellow-300" href="#">iPad</a>
+          <a class="hover:text-yellow-300" href="./iphone.html">iPhone</a>
+          <a class="hover:text-yellow-300" href="#">Music</a>
+          <a class="hover:text-yellow-300" href="#">Support</a>
+          <a class="hover:text-yellow-300" href="#">Where to buy</a>
+          <a href="#" class="h-8 w-8"
+            ><img src="./assets/images/logo-search.svg" alt="search"
+          /></a>
+        </div>
+        <!-- HAMBURGER ICON -->
+        <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- COMPARE SECTIONS -->
+    <header class="bg-gray-200 hidden md:block">
+        <div class="container flex items-start justify-between mx-auto min-h-min py-4 px-6 compare lg:w-4/5">
+            <div class="flex flex-col items-center text-center">
+                <img src="./assets/images/macbookair_light__f0o95rwae8ae_large.svg" alt="Macbook Air">
+                <span class="text-black">Macbook Air</span>
+                <span class="text-red-300">New</span>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./assets/images/macbook_pro_light__e791sjqzt32a_large.svg" alt="Macbook Pro">
+                <span class="text-black">Macbook Pro</span>
+                <span class="text-red-300">New</span>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./assets/images/imac_24_light__colyztscbeeu_large.svg" alt="iMac">
+                <span class="text-black">iMac</span>
+                <span class="text-red-300">New</span>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./assets/images/mac_mini_light__frtahmzmd4mm_large.svg" alt="Mac Mini">
+                <span class="text-black">Mac Mini</span>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./assets/images/mac_studio_light__ea3pb1auizu6_large.svg" alt="Mac Studio">
+                <span class="text-black">Mac Studio</span>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./assets/images/mac_pro_light__cj4dvg7thx5y_large.svg" alt="Mac Pro">
+                <span class="text-black">Mac Pro</span>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./assets/images/mac_compare_light__emml1umdv9m6_large.svg" alt="compare">
+                <span class="text-black">Compare</span>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="./assets/images/imac_24_light__colyztscbeeu_large.svg" alt="Displays">
+                <span class="text-black">Displays</span>
+            </div>
+        </div>
+    </header>
+
+        <!-- SHOWCASE SECTION -->
+        <section class="max-w-full bg-white">
+            <div class="container mx-auto md:w-3/4">
+                <div class="flex w-full h-full py-6 md:py-14" href="#">
+                    <div class="container mx-auto flex flex-col items-center">
+                        <div class="flex flex-col items-center justify-center text-dark text-center md:space-y-2">
+                            <span class="text-red-600 text-center text-xl">New</span>
+                            <h1 class="text-5xl text-bold md:text-7xl">Macbook Air</h1>
+                            <p class="text-3xl md:text-4xl">Don't take it lightly.</p>
+                            <div class="flex items-center justify-center w-full">
+                                <a class="inline-block hover:underline text-lg text-blue-700 link py-7 md:text-2xl" href="#">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                            
+                        </div>
+                        <div class="flex items-center"><img src="./assets/images/macbook_air_m2__r1jrymq4ftea_large.jpg" alt="Macbook Air"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="max-w-full bg-black">
+            <div class="container mx-auto md:w-3/4">
+                <div class="flex w-full h-full py-6 md:py-14" href="#">
+                    <div class="container mx-auto flex flex-col items-center">
+                        <div class="flex flex-col items-center justify-center text-dark text-center md:space-y-2">
+                            <span class="text-orange-600 text-center text-xl">New</span>
+                            <h1 class="text-5xl text-bold text-white md:text-7xl">Macbook 13 Pro</h1>
+                            <p class="text-3xl md:text-4xl text-white">Pro anywhere.</p>
+                            <div class="flex items-center justify-around w-1/2">
+                                <a class="inline-block hover:underline text-lg text-blue-700 link py-7 md:text-2xl" href="#">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="flex items-center"><img src="./assets/images/macbook_pro_13__e3r46kd69eoi_large.jpg" alt="iphone 13"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-full bg-white py-20 px-4 space-y-10">
+            <div class="container mx-auto md:w-3/4">
+                <h1 class="text-5xl text-center">Which Mac is right for you?</h1>
+            <div class="grid grid-cols-1 gap-3 lg:grid-cols-4">
+                <div class="flex flex-col items-center justify-between border-b border-gray-700 border-solid pb-5">
+                    <img class="w-40" src="./assets/images/compare_mba__fchj615oz0yi_large.png" alt="iphone 13 Pro">
+                    <img class="w-2/5" src="./assets/images/swatch_iphone_13_pro__dwe0m1kjylsi_large.png" alt="iphone 13 Pro swatch">
+                    <h2 class="text-2xl text-center">MacBook Air</h2>
+                    <h4 class="text-md text-gray-600">M1 Chip</h4>
+                    <button class="rounded-full py-1 px-4 bg-blue-600 text-white">Buy</button>
+                    <a class="inline-block hover:underline text-lg text-blue-700 link md:text-xl" href="#">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="flex flex-col items-center justify-between border-b border-gray-700 border-solid pb-5">
+                    <img class="w-40" src="./assets/images/compare_mbam2__bdesjk99hf4i_large.png" alt="iphone 13">
+                    <img class="w-2/5" src="./assets/images/swatch_iphone_13__cr1wl9d1b5aq_large.png" alt="iphone 13 swatch">
+                    <span class="text-red-300">New</span>
+                    <h2 class="text-2xl text-center">MacBook Air</h2>
+                    <h4 class="text-md text-gray-600">M2 Chip</h4>
+                    <button class="rounded-full py-1 px-4 bg-blue-600 text-white">Buy</button>
+                    <a class="inline-block hover:underline text-lg text-blue-700 link md:text-xl" href="#">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="flex flex-col items-center justify-between border-b border-gray-700 border-solid pb-5">
+                    <img class="w-40" src="./assets/images/compare_mbp13__euj5z15300om_large.png" alt="iphone SE">
+                    <img class="w-16" src="./assets/images/swatch_iphone_se__bygc73yqw22u_large.png" alt="iphone SE swatch">
+                    <span class="text-red-300">New</span>
+                    <h2 class="text-2xl text-center">MacBook Pro 13"</h2>
+                    <button class="rounded-full py-1 px-4 bg-blue-600 text-white">Shop</button>
+                    <a class="inline-block hover:underline text-lg text-blue-700 link md:text-xl" href="#">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="flex flex-col items-center justify-between border-b border-gray-700 border-solid pb-5">
+                    <img class="w-40" src="./assets/images/compare_mbp14_and_16__f2dhysusb5im_large.png" alt="iphone 12">
+                    <img class="w-2/5" src="./assets/images/swatch_iphone_13__cr1wl9d1b5aq_large.png" alt="iphone 12 swatch">
+                    <span class="text-red-300">New</span>
+                    <h2 class="text-2xl text-center">MacBook Pro 14" and 16"</h2>
+                    <button class="rounded-full py-1 px-4 bg-blue-600 text-white">Buy</button>
+                    <a class="inline-block hover:underline text-lg text-blue-700 link md:text-xl" href="#">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="hidden flex-col items-center justify-between border-b border-gray-700 border-solid pb-5 space-y-7 md:flex">
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">13.3"</h3>
+                        <span class="text-center text-base">Retina display</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_m1__dsskrswqk7wy_large.png" alt="iphone 13 pro camera">
+                        <span class="text-center text-base">Apple M1 Chip</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">8 Core CPU</h3>
+                        <span class="text-center text-base">CPU</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">7 Core CPU</h3>
+                        <span class="text-center text-base">CPU</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_memory__e26txeytwkcy_large.png" alt="iphone 13 pro camera">
+                        <span class="text-center text-base">Up to 16GB unified memory</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">2TB</h3>
+                        <span class="text-center text-base">Maximum configuration memory</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/icon_battery__wqowcbwj50y2_large.png" alt="battery">
+                        <span class="text-center text-base">Up to 18 hours battery life</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_camera__dlxow9r3leie_large.png" alt="face id">
+                        <span class="text-center text-base">720p FaceTime HD Camera</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_mic__bkm7awuvc5qu_large.png" alt="face id">
+                        <span class="text-center text-base">Three mic array. Stereo speakers.</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">1.29Kg</h3>
+                        <span class="text-center text-base">Weight</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_touch_id_touch_bar__e6rwp5pfboae_large.png" alt="face id">
+                        <span class="text-center text-base">Touch ID</span>
+                    </div>
+                </div>
+                <div class="hidden flex-col items-center justify-between border-b border-gray-700 border-solid pb-5 space-y-7 md:flex">
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">13.3"</h3>
+                        <span class="text-center text-base">Retina display</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_m1__dsskrswqk7wy_large.png" alt="iphone 13 pro camera">
+                        <span class="text-center text-base">Apple M1 Chip</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">8 Core CPU</h3>
+                        <span class="text-center text-base">CPU</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">7 Core CPU</h3>
+                        <span class="text-center text-base">CPU</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_memory__e26txeytwkcy_large.png" alt="iphone 13 pro camera">
+                        <span class="text-center text-base">Up to 16GB unified memory</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">2TB</h3>
+                        <span class="text-center text-base">Maximum configuration memory</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/icon_battery__wqowcbwj50y2_large.png" alt="battery">
+                        <span class="text-center text-base">Up to 18 hours battery life</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_camera__dlxow9r3leie_large.png" alt="face id">
+                        <span class="text-center text-base">720p FaceTime HD Camera</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_mic__bkm7awuvc5qu_large.png" alt="face id">
+                        <span class="text-center text-base">Three mic array. Stereo speakers.</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">1.29Kg</h3>
+                        <span class="text-center text-base">Weight</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_touch_id_touch_bar__e6rwp5pfboae_large.png" alt="face id">
+                        <span class="text-center text-base">Touch ID</span>
+                    </div>
+                </div>
+                <div class="hidden flex-col items-center justify-between border-b border-gray-700 border-solid pb-5 space-y-7 md:flex">
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">13.3"</h3>
+                        <span class="text-center text-base">Retina display</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_m1__dsskrswqk7wy_large.png" alt="iphone 13 pro camera">
+                        <span class="text-center text-base">Apple M1 Chip</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">8 Core CPU</h3>
+                        <span class="text-center text-base">CPU</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">7 Core CPU</h3>
+                        <span class="text-center text-base">CPU</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_memory__e26txeytwkcy_large.png" alt="iphone 13 pro camera">
+                        <span class="text-center text-base">Up to 16GB unified memory</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">2TB</h3>
+                        <span class="text-center text-base">Maximum configuration memory</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/icon_battery__wqowcbwj50y2_large.png" alt="battery">
+                        <span class="text-center text-base">Up to 18 hours battery life</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_camera__dlxow9r3leie_large.png" alt="face id">
+                        <span class="text-center text-base">720p FaceTime HD Camera</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_mic__bkm7awuvc5qu_large.png" alt="face id">
+                        <span class="text-center text-base">Three mic array. Stereo speakers.</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">1.29Kg</h3>
+                        <span class="text-center text-base">Weight</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_touch_id_touch_bar__e6rwp5pfboae_large.png" alt="face id">
+                        <span class="text-center text-base">Touch ID</span>
+                    </div>
+                </div>
+                <div class="hidden flex-col items-center justify-between border-b border-gray-700 border-solid pb-5 space-y-7 md:flex">
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">14.2" or 16.2"</h3>
+                        <span class="text-center text-base">Retina display</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_m1__dsskrswqk7wy_large.png" alt="iphone 13 pro camera">
+                        <span class="text-center text-base">Apple M1 Chip</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">8 Core CPU</h3>
+                        <span class="text-center text-base">CPU</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">7 Core CPU</h3>
+                        <span class="text-center text-base">CPU</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_memory__e26txeytwkcy_large.png" alt="iphone 13 pro camera">
+                        <span class="text-center text-base">Up to 16GB unified memory</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">2TB</h3>
+                        <span class="text-center text-base">Maximum configuration memory</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/icon_battery__wqowcbwj50y2_large.png" alt="battery">
+                        <span class="text-center text-base">Up to 18 hours battery life</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_camera__dlxow9r3leie_large.png" alt="face id">
+                        <span class="text-center text-base">720p FaceTime HD Camera</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_mic__bkm7awuvc5qu_large.png" alt="face id">
+                        <span class="text-center text-base">Three mic array. Stereo speakers.</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h3 class="text-black text-lg">1.29Kg</h3>
+                        <span class="text-center text-base">Weight</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/images/compare_icon_touch_id_touch_bar__e6rwp5pfboae_large.png" alt="face id">
+                        <span class="text-center text-base">Touch ID</span>
+                    </div>
+            </div>
+            </div>            
+            <div class="flex items-center justify-center p-7"><a class="text-center text-lg text-blue-600 link" href="#">Compare all MacBook models<i class="fa-solid fa-chevron-right"></i></a></div>
+        </section>
+
+        <!-- SECOND SHOWCASE SECTION -->
+        <section class="flex flex-col space-y-12">
+            <h1 class="text-5xl text-center">Get more out of your iPhone.</h1>
+            <div class="flex flex-col justify-between space-y-8 md:flex-row md:space-y-0 md:space-x-4">
+                <div class="flex flex-col items-center justify-between md:w-1/2">
+                    <img class="mx-auto" src="./assets/images/lower1.png" alt="Apple Music logo">
+                    <p class="text-black text-center text-2xl py-5">
+                        Over 200 Million songs. <br>Start listening for free today.
+                    </p>
+                    <div class="flex items-center justify-center space-x-5">
+                        <a href="#" class="text-2xl inline-block text-blue-700 py-5 px-3 link">Try for Free<i class="fa-solid fa-arrow-up-right"></i></a>
+                        <a href="#" class="text-2xl inline-block text-blue-700 py-5 px-3 link">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div><img id="arcade-img1" src="./assets/images/lower1.jpg" alt="Apple Music"></div>
+                </div>
+                <div class="flex flex-col items-center relative md:w-1/2">
+                    <img class="mx-auto" src="./assets/images/lower2.png" alt="Apple Arcade logo">
+                    <p class="text-black text-center text-2xl py-5">
+                        Get 3 months of Apple Arcade free <br> when you buy an iPhone.
+                    </p>
+                    <div class="flex items-center justify-center space-x-5">
+                        <a href="#" class="text-2xl inline-block text-blue-700 py-5 px-3 link">Try for Free<i class="fa-solid fa-arrow-up-right"></i></a>
+                        <a href="#" class="text-2xl inline-block text-blue-700 py-5 px-3 link">Learn More<i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <img src="./assets/images/lower2.jpg" alt="Apple Music">
+                </div>
+            </div>
+            <section class="py-7 px-4">
+                <div class="flex flex-col text-gray-500 text-sm border-b border-b-gray-400 py-4">
+                    <span>1. The display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 5.42 inches (iPhone 13 mini), 6.06 inches (iPhone 13, iPhone 13 Pro), 6.68 inches (iPhone 13 Pro Max), 5.42 inches (iPhone 12 mini), or 6.06 inches (iPhone 12, iPhone 11) diagonally. Actual viewable area is less.</span>
+                    <span>2. Data plan required. 5G and LTE are available in select markets and through select carriers. Speeds vary by site conditions and carrier. For details on 5G and LTE support, contact your carrier and see apple.com/iphone/cellular.</span>
+                    <span>3. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced by Apple service provider. Battery life and charge cycles vary by use and settings. See apple.com/ng/batteries and apple.com/ng/iphone/battery.html for more information.</span>
+                    <span>4. ₦900/month after free trial. No commitment. Plan automatically renews after trial until cancelled.</span>
+                    <span>5. ₦1800/month after free trial. One subscription per Family Sharing group. Offer good for 3 months after eligible device activation. Plan automatically renews until cancelled. Restrictions and other terms apply.</span>
+                </div>
+            </section>
+        </section>
+    <!-- FOOTER SECTION -->
+    <footer class="bg-footerColor">
+        <div class="container mx-auto lg:w-4/5 py-10 px-4">
+            <div class="flex flex-col justify-between md:flex-row">
+                <div class="flex flex-col">
+                    <span class="text-black text-lg">Explore</span>
+                    <a href="#" class="text-base text-gray-600">Mac</a>
+                    <a href="#" class="text-base text-gray-600">iPhone</a>
+                    <a href="#" class="text-base text-gray-600">iPad</a>
+                    <a href="#" class="text-base text-gray-600">Music</a>
+                    <a href="#" class="text-base text-gray-600">AirPod</a>
+                    <a href="#" class="text-base text-gray-600">AirTag</a>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-black text-lg">Services</span>
+                    <a href="#" class="text-base text-gray-600">Apple Music</a>
+                    <a href="#" class="text-base text-gray-600">Apple Arcade</a>
+                    <a href="#" class="text-base text-gray-600">iCloud</a>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-black text-lg">Account</span>
+                    <a href="#" class="text-base text-gray-600">Manage your Apple ID</a>
+                    <a href="#" class="text-base text-gray-600">iCloud.com</a>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-black text-lg">About Apple</span>
+                    <a href="#" class="text-base text-gray-600">Newsroom</a>
+                    <a href="#" class="text-base text-gray-600">Apple Leadership</a>
+                    <a href="#" class="text-base text-gray-600">Career Opportunities</a>
+                    <a href="#" class="text-base text-gray-600">Music</a>
+                    <a href="#" class="text-base text-gray-600">Investments</a>
+                    <a href="#" class="text-base text-gray-600">Ethics and Compliance</a>
+                </div>
+            </div>
+            <div class="flex my-7 flex-col">
+                <div class="flex items-center justify-start"><span><a href="#">Find a retailer</a> near you.</span></div>
+                <div class="flex flex-col items-start md:justify-between md:flex-row">
+                    <div>Copyright &copy; <span id="footer-year"></span> All Rights reserved.</div>
+                    <div>Terms of Use</div>
+                    <div class="text-purple-600 self-start text-lg"><span>TimTez NG</span></div>
+                </div>
+                <div class="flex flex-col items-center justify-between w-1/4 lg:flex-row">
+                    <a href="www.github.com/timtez"><i class="fa-brands fa-github fa-2x"></i></a>
+                    <a href="www.twitter.com/codingcrazy"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                    <a href="www.linkedin.com/in/timtez"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/13de032a3d.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
